@@ -7,7 +7,6 @@ import store from "./store/index";
 import App from "./App";
 import Home from "./components/Home";
 import Agenda from './components/Agenda';
-import HelloWorld from "./components/HelloWorld";
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
@@ -16,7 +15,6 @@ const router = new VueRouter({
   mode: "history",
   routes: [
     { path: "/", component: Home },
-    { path: "/hello-world", component: HelloWorld },
     { path: '/agenda', component: Agenda }
   ]
 });

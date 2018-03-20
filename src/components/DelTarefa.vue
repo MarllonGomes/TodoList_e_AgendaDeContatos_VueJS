@@ -1,5 +1,5 @@
 <template>
-  <button @click="apagar">apagar tarefa</button>
+  <span class="badge badge-danger badge-pill" @click="apagar" style="cursor: pointer;">Excluir</span>
 </template>
 <script>
 export default {
