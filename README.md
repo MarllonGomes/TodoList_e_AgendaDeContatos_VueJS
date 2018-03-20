@@ -1,27 +1,17 @@
-# test-project
+# VueJS, VueRouter e Vuex
 
-> A Vue.js project
+> Projeto de aprendizagem de vuejs, vuerouter e vuex.
+> Aplicação01: Todolist que adiciona, lista e exclui tarefas utilizando o vuex para gerenciar o estado da aplicação
+> Aplicação02: Agenda de contatos que adiciona contatos, lista, busca e exclui contatos utilizando o vuex também para gerenciar o estado
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# instalar dependências
 npm install
 
-# serve with hot reload at localhost:8080
+# servir aplicação com hot reload
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
